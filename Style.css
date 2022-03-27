@@ -28,19 +28,19 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
 	transition: all 1000ms;
 }
 
 .showcase:hover::after {
-	filter: blur(1px);
-	-webkit-filter: blur(1px);
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
 }
 
 .showcase:hover .content {
-	filter: blur(1px);
-	-webkit-filter: blur(1px);
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
 }
 
 .services{
