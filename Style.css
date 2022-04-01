@@ -28,20 +28,21 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
-	filter: blur(0px);
-	-webkit-filter: blur(0px);
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
 	transition: all 1000ms;
 }
 
 .showcase:hover::after {
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
 }
 
 .showcase:hover .content {
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
+	filter: blur(1px);
+	-webkit-filter: blur(1px);
 }
+
 
 .services{
 background-color: #222; 
